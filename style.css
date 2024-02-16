@@ -1,1 +1,43 @@
-/* write your css code here */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    background: #D7DEDC;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    margin: 0;
+}
+
+.intro {
+    padding: 20px;
+    text-align: justify;
+}
+
+.review-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #1f1f1f;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.reviews-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1f1f1f;
+}
+
+.suggestion-form {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.closing-remarks {
+    color: #ffffff;
+}
