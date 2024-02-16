@@ -1,1 +1,94 @@
-<!-- write your HTML here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael's TV Show Reviews</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h1 id="main-heading" class="heading">Michael's TV Show Reviews</h1>
+
+<p class="intro">Welcome to Michael's TV Show Reviews, where I share insightful critiques and ratings of the latest and greatest TV shows. As an avid viewer, I'm passionate about providing a platform for fellow enthusiasts to discover new shows and share their recommendations.
+
+In this space, you'll find in-depth assessments of popular series, covering various genres and networks. From thrilling dramas to action-packed superhero sagas, my reviews aim to guide you in choosing the perfect show for your entertainment preferences.
+
+Each review includes essential details such as the TV show's title, network, plot summary, and assessments of character development. The overall rating reflects my holistic view of the show's quality, taking into account its narrative, performances, and production values.
+
+Feel free to explore the table showcasing some of my recent reviews, including shows like "Gen V," "Loki," "Invincible," "The Boys," and "What-If?". If you have a favorite TV show you'd like me to review or want to share your thoughts on any of the shows featured, use the provided form to submit your suggestions.
+
+I appreciate your visit to Michael's TV Show Reviews and look forward to creating a vibrant community of TV show enthusiasts. Your feedback and suggestions are invaluable in making this space a go-to destination for TV lovers worldwide. Thank you for being a part of this exciting journey!</p>
+
+<img src="https://cdn.glitch.global/140ca1ef-0ac9-4ad3-815a-e067ad682a9d/movie%20review.png?v=1705616158136" alt="Michael's Reviews" id="review-image" class="review-image">
+
+<table class="reviews-table">
+    <thead>
+        <tr>
+            <th>TV Show</th>
+            <th>Network</th>
+            <th>Plot</th>
+            <th>Character Development</th>
+            <th>Overall Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gen V</td>
+            <td>Amazon</td>
+            <td>4.8</td>
+            <td>4.5</td>
+            <td>4.7</td>
+        </tr>
+        <tr>
+            <td>Loki</td>
+            <td>Marvel</td>
+            <td>4.6</td>
+            <td>4.4</td>
+            <td>4.5</td>
+        </tr>
+        <tr>
+            <td>Invincible</td>
+            <td>Amazon</td>
+            <td>4.7</td>
+            <td>4.5</td>
+            <td>4.6</td>
+        </tr>
+        <tr>
+            <td>The Boys</td>
+            <td>Amazon</td>
+            <td>4.5</td>
+            <td>4.2</td>
+            <td>4.4</td>
+        </tr>
+        <tr>
+            <td>What-If?</td>
+            <td>Marvel</td>
+            <td>4.2</td>
+            <td>4.3</td>
+            <td>4.2</td>
+        </tr>
+    </tbody>
+</table>
+
+<form class="suggestion-form" action="#" method="post">
+    <label for="suggestion">Have a TV show in mind for me to review?</label>
+    <input type="text" id="suggestion" name="suggestion" required>
+
+    <label for="watched">Have you watched the show yourself?</label>
+    <select id="watched" name="watched" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="some">Some of it</option>
+    </select>
+
+    <label for="enjoyment">How much did you enjoy it?</label>
+    <input type="range" id="enjoyment" name="enjoyment" min="0" max="10" step="1" value="5">
+
+    <button type="submit">Submit Suggestion</button>
+</form>
+
+<p class="closing-remarks">Thank you for visiting Michael's TV Show Reviews!</p>
+
+</body>
+</html>
